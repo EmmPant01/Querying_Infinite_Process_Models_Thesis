@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="new_petri_net" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>new_petri_net</text>
+    </name>
+    <page id="n0">
+      <place id="p_2">
+        <name>
+          <text>p_2</text>
+        </name>
+      </place>
+      <place id="p_1">
+        <name>
+          <text>p_1</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <arc id="2377436089264" source="p_3" target="c"/>
+      <arc id="2377436088400" source="p_1" target="a"/>
+      <arc id="2377436088592" source="p_1" target="b"/>
+      <arc id="2377436088304" source="a" target="p_1"/>
+      <arc id="2377436088688" source="p_1" target="b"/>
+      <arc id="2377436088496" source="a" target="p_1"/>
+      <arc id="2377436088784" source="p_1" target="b"/>
+      <arc id="2377436088880" source="b" target="p_1"/>
+      <arc id="2377436088976" source="a" target="p_3"/>
+      <arc id="2377436089072" source="b" target="p_2"/>
+      <arc id="2377436089168" source="p_2" target="c"/>
+    </page>
+  </net>
+</pnml>
