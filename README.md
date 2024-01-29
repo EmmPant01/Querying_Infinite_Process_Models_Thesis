@@ -1,7 +1,4 @@
 # Querying Infinite Process Models
-## Master's Thesis 
-
-
 
 File Structure of the GitLab repository:
 
